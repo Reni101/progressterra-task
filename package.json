@@ -1,6 +1,5 @@
 {
   "name": "progressterra",
-  "homepage": "https://Reni101.github.io/progressterra-task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,7 +41,6 @@
   },
   "devDependencies": {
     "eslint": "8.43.0",
-    "gh-pages": "^5.0.0",
     "prettier": "2.8.8"
   }
 }
