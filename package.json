@@ -1,5 +1,6 @@
 {
   "name": "progressterra",
+  "homepage": "https://Reni101.github.io/progressterra-task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -39,6 +42,7 @@
   },
   "devDependencies": {
     "eslint": "8.43.0",
+    "gh-pages": "^5.0.0",
     "prettier": "2.8.8"
   }
 }
