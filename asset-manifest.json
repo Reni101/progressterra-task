@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/progressterra-task/static/css/main.eb12354f.css",
+    "main.css": "/progressterra-task/static/css/main.d8125244.css",
     "main.js": "/progressterra-task/static/js/main.cad38e3c.js",
     "static/js/787.cd64e821.chunk.js": "/progressterra-task/static/js/787.cd64e821.chunk.js",
     "static/media/Group.svg": "/progressterra-task/static/media/Group.c7a3c9abe0f50021fc9660b841b472f6.svg",
     "static/media/Path 241.svg": "/progressterra-task/static/media/Path 241.04fd94bcaba1133e0c1eb27f2f269598.svg",
     "index.html": "/progressterra-task/index.html",
     "static/media/Group 3112.svg": "/progressterra-task/static/media/Group 3112.58778871a2dac76842c91c94b6462b12.svg",
-    "main.eb12354f.css.map": "/progressterra-task/static/css/main.eb12354f.css.map",
+    "main.d8125244.css.map": "/progressterra-task/static/css/main.d8125244.css.map",
     "main.cad38e3c.js.map": "/progressterra-task/static/js/main.cad38e3c.js.map",
     "787.cd64e821.chunk.js.map": "/progressterra-task/static/js/787.cd64e821.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb12354f.css",
+    "static/css/main.d8125244.css",
     "static/js/main.cad38e3c.js"
   ]
 }
