@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
 import {useAppDispatch, useAppSelector} from 'common/hooks/useAppHooks'
 import {dateBurningBonus, getBonus} from 'features/bonus/bonuse.slice'
-import arrow from '../../common/assets/Group 3112.svg'
-import fire from '../../common/assets/Path 241.svg'
+import arrow from 'common/assets/ArrowRight.svg'
+import fire from 'common/assets/Fire.svg'
 import style from './Bonus.module.css'
 
 export const Bonus = () => {

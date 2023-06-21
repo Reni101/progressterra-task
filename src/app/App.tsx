@@ -3,7 +3,7 @@ import 'app/App.module.css'
 import { useAppDispatch, useAppSelector } from 'common/hooks/useAppHooks'
 import { authGetToken } from 'features/auth/auth.slice'
 import { Bonus } from 'features/bonus/Bonus'
-import logo from '../common/assets/Group.svg'
+import logo from 'common/assets/Logo.svg'
 import style from './App.module.css'
 
 function App() {
