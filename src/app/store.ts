@@ -1,9 +1,10 @@
 import { AnyAction, combineReducers, configureStore, ThunkDispatch } from '@reduxjs/toolkit'
-import { appReducer } from 'app/app.slice'
+import { authReducer } from 'features/auth/auth.slice'
+import { bonusReducer } from 'features/bonus/bonuse.slice'
 
 const rootReducer = combineReducers({
-  app: appReducer,
-  // bonus: bonusReducer
+  auth: authReducer,
+  bonus: bonusReducer
 })
 
 export const store = configureStore({

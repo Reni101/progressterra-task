@@ -2,7 +2,7 @@ import { authInstance } from 'common/insance/insance'
 
 export const authApi = {
   getAccessToken() {
-    return authInstance.post(
+    return authInstance.post<Response>(
       'clients/accesstoken',
       {
         idClient: process.env.REACT_APP_CLIENT_ID,
@@ -16,4 +16,18 @@ export const authApi = {
       {}
     )
   }
+}
+
+export type Response = {
+  result: Result
+  accessToken: string
+}
+
+export type Result = {
+  status: number
+  message: string
+  messageDev?: string
+  codeResult: number
+  duration: number
+  idLog: string
 }
