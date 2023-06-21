@@ -1,8 +1,8 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import 'app/App.module.css'
-import {useAppDispatch, useAppSelector} from 'common/hooks/useAppHooks'
-import {authGetToken} from 'features/auth/auth.slice'
-import {Bonus} from 'features/bonus/Bonus'
+import { useAppDispatch, useAppSelector } from 'common/hooks/useAppHooks'
+import { authGetToken } from 'features/auth/auth.slice'
+import { Bonus } from 'features/bonus/Bonus'
 import logo from '../common/assets/Group.svg'
 import style from './App.module.css'
 
@@ -21,9 +21,7 @@ function App() {
       </div>
       <Bonus />
     </div>
-  ) : (
-    <></>
-  )
+  ) : null
 }
 
 export default App
