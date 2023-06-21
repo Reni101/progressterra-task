@@ -8,7 +8,7 @@ import style from './Bonus.module.css'
 export const Bonus = () => {
   const dispatch = useAppDispatch()
   const bonus = useAppSelector(state => state.bonus)
-  const dateBonus = useAppSelector(dateBurningBonus) || ''
+  const dateBonus = useAppSelector(dateBurningBonus)
 
   useEffect(() => {
     dispatch(getBonus())
